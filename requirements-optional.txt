@@ -1,0 +1,2 @@
+# Only needed for the optional GloVe comparison (menu options 5 and 6 column)
+gensim>=4.3
