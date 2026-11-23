@@ -56,7 +56,7 @@ def do_similarity():
 
 def do_compare():
     if not emb.available():
-        print("gensim not installed. Run: pip install -r requirements-optional.txt")
+        print("NumPy not installed. Run: python -m pip install -r requirements-optional.txt")
         return
     w1, w2 = input("First word: "), input("Second word: ")
     r = wt.similarity(w1, w2)
@@ -88,7 +88,7 @@ MENU = {
     "2": ("Synonyms and antonyms", do_syn_ant),
     "3": ("Related words (broader/narrower/part-of)", do_related),
     "4": ("Similarity score between two words", do_similarity),
-    "5": ("Compare WordNet vs GloVe", do_compare),
+    "5": ("Compare WordNet vs GloVe (optional)", do_compare),
     "6": ("Sample word-pair table", do_table),
 }
 

@@ -1,2 +1,2 @@
-# Only needed for the optional GloVe comparison (menu options 5 and 6 column)
-gensim>=4.3
+# Only needed for the optional GloVe comparison (menu option 5 and the GloVe column in option 6)
+numpy>=2.0
